@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.container{
+    position: relative;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container>input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+
+
+}
+
+.loading,.error
+{
+    padding: 10px;
+    font-size: 14px;
+    color:#555;
+
+}
+.suggestions-list{
+    position: absolute;
+    width: 100%;
+    border: 1px solid black;
+    border-top:none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: #fff;
+    z-index: 10;
+    max-height: 150px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.suggestion-item{
+    padding: 10px;
+    cursor: pointer;
+}
+.suggestion-item:hover{
+    background-color: #f0f0f0;
+
+}
+.Pagination{
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.Pagination > span{
+    padding: 10px;
+    border: 15px 20px;
+    cursor: pointer;
+
+}
+.Pagination__selected{
+    background-color: rgb(220,220,220);
+}
+
+.Pagination__disabled{
+    opacity: 0;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.Heading{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 0px;
+    
+}
+.filter-btn{
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav-items ul{
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+.nav-items ul li  {
+  margin: 10px;
+  font-size: 24px;
+  
+}
+
+.res-card{
+    width:300px;
+    height: 500px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 5px solid blue;
+}
+.Search{
+    padding: 10px;
+    margin: 10px;
+
+}
+.res-img{
+    width: 100%;
+}
+
+.shimmer-cards{
+    background-color:#f0f0f0;
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.login{
+    padding:  0px 20px;
+}
+.filter{
+    display: flex;
+}
+.search{
+    margin: 10px;
+    padding: 5px;
+}
+.user-card{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 1%;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    
+
+} */
